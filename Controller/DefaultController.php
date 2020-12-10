@@ -19,7 +19,7 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-        return $this->render('OpensoftRolloutBundle:Default:index.html.twig', array('rollout' => $this->getRollout()));
+        return $this->render('@OpensoftRollout/Default/index.html.twig', array('rollout' => $this->getRollout()));
     }
 
     /**
